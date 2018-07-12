@@ -1,23 +1,20 @@
 class Dog
-attr_reader :name 
-attr_writer :name
-attr_reader :breed
-attr_writer :breed
-
 def initialize (name, breed)
   @name = name
   @breed = breed
 end 
+
+def name
+  @name= name
 end
 
-bo = Dog.new 
-bo.name = "Bo"
+def name= (new_name)
+  @name= new_name
+end
 
-puts bo.name
+end
 
-terrier = Dog.new 
-terrier.breed = "Terrier"
 
-puts "Terrier"
+
 
     
