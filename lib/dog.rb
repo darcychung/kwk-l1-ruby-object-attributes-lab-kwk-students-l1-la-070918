@@ -10,5 +10,6 @@ def initialize (name, breed)
 end 
 end
 
-bo 
+bo = Dog.new 
+
     
