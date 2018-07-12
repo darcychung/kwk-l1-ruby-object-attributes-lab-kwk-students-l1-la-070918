@@ -13,5 +13,6 @@ end
 bo = Dog.new 
 bo.name = "Bo"
 
+puts bo.name
 
     
