@@ -5,22 +5,18 @@ def initialize (name, breed)
 end 
 
 def name
-  @name= name
+  @name= "Fido"
 end
 
 def name= (new_name)
   @name= new_name
 end
 
-end
-
-fido= Dog.new 
-fido.name = "Fido"
 
  puts fido.name
 
 def breed
-  @breed= breed
+  @breed= "Beagle"
 end
 def breed= (new_breed)
   @breed= new_name
