@@ -14,7 +14,7 @@ def name=(new_name)
 end
 
 def job
-  @job= "singer"
+  @job= "Singer"
 end
 def job= (new_job)
   @job= new_job
