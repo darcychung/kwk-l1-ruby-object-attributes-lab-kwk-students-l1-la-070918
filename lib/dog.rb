@@ -19,6 +19,17 @@ fido.name = "Fido"
 
  puts fido.name
 
+def breed
+  @breed= breed
+end
+def breed= (new_breed)
+  @breed= new_name
+end
+
+beagle= Dog.new
+beagle.breed = "Beagle"
+
+puts beagle.breed
 
 
     
