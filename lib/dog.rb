@@ -15,4 +15,9 @@ bo.name = "Bo"
 
 puts bo.name
 
+terrier = Dog.new 
+terrier.breed = "Terrier"
+
+puts "Terrier"
+
     
