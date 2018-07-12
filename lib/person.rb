@@ -16,7 +16,7 @@ end
 def job
   @job= "Singer"
 end
-def job= (new_job)
+def job=(new_job)
   @job= new_job
 end
 end
