@@ -11,6 +11,7 @@ end
 end
 
 bo = Dog.new 
-bo.name = Bo 
+bo.name = "Bo"
+
 
     
